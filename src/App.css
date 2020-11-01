@@ -1,0 +1,73 @@
+.app {
+  background-color: white;
+  flex-direction: column;
+}
+
+.top {
+  background-color: white;
+  height: 40vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  background: white;
+  padding: 20px 20px;
+  height: 30px;
+}
+
+.empty {
+  flex: 1;
+}
+
+.empty-column {
+  flex: 1;
+}
+
+.name {
+  width: 100%;
+  text-align: center;
+  font-size: 80px;
+  flex: 1;
+}
+
+.links {
+  text-align: center;
+  width: 100%;
+  flex: 1;
+}
+
+.about {
+  display: flex;
+}
+
+.left {
+  height: 60vh;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+dl {
+  width: 90%;
+  margin: 10px auto 0px auto;
+}
+.rect {
+  width: 90%;
+  margin: 0 auto;
+  border: 3px solid black;
+  background-color: black;
+  border-radius: 3px;
+}
+.right {
+  height: 60vh;
+  flex: 3;
+  display: flex;
+  flex-direction: column;
+}
+
+.col-text-div {
+  width: 90%;
+  margin: 10px auto 0px auto;
+}
